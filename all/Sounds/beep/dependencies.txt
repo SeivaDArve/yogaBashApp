@@ -1,0 +1,4 @@
+#this document list what add to be installed on termux in order for the beep script to be made
+
+#this is an app, a music player
+$sox

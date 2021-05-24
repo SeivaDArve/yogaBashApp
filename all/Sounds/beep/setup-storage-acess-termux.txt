@@ -1,0 +1,2 @@
+#para dar permissao de acesso do termux ao cartao SD basta:
+$termux-setup-storage

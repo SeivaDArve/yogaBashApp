@@ -1,0 +1,5 @@
+Dependencies list
+
+Sox (music player)
+Figlet (ascii word generator)
+
