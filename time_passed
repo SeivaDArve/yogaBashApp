@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+seconds="$(date +%s)"
+#seconds=123456789 # as in one of the answers above
+
+eval "echo $(date -d "$seconds" +'$((%s/3600/24)) days %H hours %M minutes %S seconds')"
