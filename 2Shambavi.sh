@@ -1,23 +1,25 @@
 #!/bin/bash
 
+# Call color formating
+# AND add an alias to change them
+source ./all/textFormating/mainColorScheme
+
+
+# Showing first menu and asking what to do
+firstMenu () {
 clear
-
-
-
-
-
-
-
-
-Smenu () {
-echo -e "Shambavi Bash App\n"
+echo -e "${_red}Shambavi Bash App${_end}\n"
 echo "Menu"
+echo -e "${_underG}S${_end}tart (V)iew logs (Q)uit"
 
-echo -e "(S)tart \n(V)iew logs \n(Q)uit"
-echo -e "\nEnter Option > "; read _cursor
-
+# Prompt which option And start Redirecting
+echo -en "\nEnter Option > "; read _cursor
 if [ $_cursor == q ]; then echo "stop"; exit; fi
-if [ $_cursor == s ]; then echo "bla"; fi
+if [ $_cursor == s ]; 
+	then 
+		echo "You choose S, Start"; 
+		sleep 2
+fi
 }
-Smenu
+firstMenu
 
