@@ -2,6 +2,13 @@
 
 clear
 
+
+
+
+
+
+
+
 Smenu () {
 echo -e "Shambavi Bash App\n"
 echo "Menu"
