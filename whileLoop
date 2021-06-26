@@ -1,0 +1,13 @@
+# This while loop recognizes whick key is pressed, good for gaming controls
+while true; 
+do
+    read -rsn1 input
+    if [ "$input" = "a" ]; 
+    	then
+        	echo "hello world"
+    	fi
+    if [ "$input" = "b" ]; 
+    	then
+        	echo "hello b world"
+    	fi
+done
