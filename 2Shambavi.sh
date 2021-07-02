@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# boolean=true
+
 # Call color formating
 # AND add an alias to change them
 source ./all/textFormating/mainColorScheme
