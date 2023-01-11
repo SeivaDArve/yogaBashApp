@@ -49,6 +49,10 @@ case $1 in
       echo "termux-stop"
       tput sgr0
    ;;
+   -w | --wallpaper)
+      echo "Opening wallpaper (only)"
+      termux-open ${v_REPOS_CENTER}/yogaBashApp/all/all-sadhguru-presence/"Sadhguru-presence sadhana-time wallpaper.jpg"
+   ;;
    -y | --youtube)
       echo "Troubleshooting:"
       echo " > You may need to shut down youtube app totally for termux to open it correctly. Sometimes is youtube is open in some other link, termux will only focus yoytube without changing url"
