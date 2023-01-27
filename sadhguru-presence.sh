@@ -49,6 +49,38 @@ case $1 in
       echo "termux-stop"
       tput sgr0
    ;;
+   -P | --waiting)
+      # Run a while loop counting time and displaying time. Whenever the contition "data=18:20" is found, run the function with wallpaper and sound. 
+      # Despertador/Alarm-clock
+         clear
+         figlet "Presence"
+
+         date +%c | grep "18:20:00"
+         while [[ $? == 1 ]]
+         do 
+            tput sc; tput civis; 
+            echo "Counting time until Sadhguru Presence happens at 18:20:00"
+            echo -n "Current time: "
+            echo -n $(date +%H:%M:%S)
+            tput cnorm
+            sleep 1
+            # If time 18:20:00 is found, the loops is broken
+            tput rc
+            date +%c | grep "18:20:00"
+         done
+
+         # After loop breaks:
+         clear
+         figlet Presence
+         echo "Waiting is done... Sadhguru Presence playing"
+         termux-media-player play ${v_REPOS_CENTER}/yogaBashApp/all/all-sadhguru-presence/"Sadhguru Presence Sadhana Time at 6h20 PM.mp3" 1>/dev/null
+         echo -ne "To stop the music playing: "
+         tput setaf 4
+         echo "termux-stop"
+         tput sgr0
+
+         # If previous for loop 
+   ;;
    -w | --wallpaper)
       echo "Opening wallpaper (only)"
       termux-open ${v_REPOS_CENTER}/yogaBashApp/all/all-sadhguru-presence/"Sadhguru-presence sadhana-time wallpaper.jpg"
@@ -71,6 +103,8 @@ case $1 in
       echo "   -S                (to open music player and open img)"
       echo "   --youtube         (to open at YouTube with Termux help) "
       echo "   -y                (to open at YouTube with Termux help) "
+      echo "   --waiting         (displays current time and if Sadhguru Presence time 18:20 is found, run the song and image"
+      echo "   -P                (displays current time and if Sadhguru Presence time 18:20 is found, run the song and image"
       echo "   <no args>         (to diaplay this message)"
    
    ;;
