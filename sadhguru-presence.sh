@@ -16,6 +16,14 @@
       # at source-all-drya-file: 'alias termux-stop="termux-media-player stop"'
    # uDev: add a test for the following commands:
 
+function f_cor3 {
+   tput setaf 6
+}
+function f_resetCor {
+   tput sgr0
+}
+
+
 function f_wait {
    tput sc
    echo "Waiting: 5 secs before playing song"
@@ -59,9 +67,29 @@ case $1 in
          while [[ $? == 1 ]]
          do 
             tput sc; tput civis; 
-            echo "Counting time until Sadhguru Presence happens at 18:20:00"
+            echo -n "Counting time until Sadhguru Presence happens at "
+            f_cor3
+            echo "18:20:00"
+            f_resetCor
+            echo
+            echo "If you want to lock your phone screen, better use wake-lock"
+            f_cor3
+            echo -n "   termux-wake-lock "
+            f_resetCor
+            echo -n "and "
+            f_cor3
+            echo "termux-wake-unlock"
+            f_resetCor
+            echo
+            echo -n "Cancel with "
+            f_cor3
+            echo "Ctrl-C"
+            f_resetCor
+            echo
             echo -n "Current time: "
+            f_cor3
             echo -n $(date +%H:%M:%S)
+            f_resetCor
             tput cnorm
             sleep 1
             # If time 18:20:00 is found, the loops is broken
