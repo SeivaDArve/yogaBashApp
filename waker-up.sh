@@ -13,7 +13,9 @@ while true
 do
    clear
    figlet waker-up
-   echo "Waker Up: a Bell will play every 1 minute "
+   #echo "Waker Up: a Bell will play every 1 minute "
+   echo "Waker Up: a Bell will play every 5 minutes "
+      
    echo
    echo "If you want to lock your phone screen, better use wake-lock"
    f_cor3
@@ -29,5 +31,11 @@ do
    echo -n "Ctrl-C "
    f_resetCor
    sleep 60
+   sleep 60
+   sleep 60
+   sleep 60
+   sleep 60
+   #sleep 60
+   #sleep 60
    termux-media-player play ${v_REPOS_CENTER}/yogaBashApp/all/sounds/bell-sound.mp3 1>/dev/null
 done
