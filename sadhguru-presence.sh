@@ -63,29 +63,32 @@ case $1 in
          clear
          figlet "Presence"
 
+      # Display instructions on the screen
+         echo -n "Counting time until Sadhguru Presence happens at "
+         f_cor3
+         echo "18:20:00"
+         f_resetCor
+         echo
+         echo "If you want to lock your phone screen, better use wake-lock"
+         f_cor3
+         echo -n "   termux-wake-lock "
+         f_resetCor
+         echo -n "and "
+         f_cor3
+         echo "termux-wake-unlock"
+         f_resetCor
+         echo
+         echo -n "Cancel with: "
+         f_cor3
+         echo "Ctrl-C"
+         f_resetCor
+         echo
+
+      # Creating a while loop that only breaks at the right time
          date +%c | grep "18:20:00"
          while [[ $? == 1 ]]
          do 
             tput sc; tput civis; 
-            echo -n "Counting time until Sadhguru Presence happens at "
-            f_cor3
-            echo "18:20:00"
-            f_resetCor
-            echo
-            echo "If you want to lock your phone screen, better use wake-lock"
-            f_cor3
-            echo -n "   termux-wake-lock "
-            f_resetCor
-            echo -n "and "
-            f_cor3
-            echo "termux-wake-unlock"
-            f_resetCor
-            echo
-            echo -n "Cancel with "
-            f_cor3
-            echo "Ctrl-C"
-            f_resetCor
-            echo
             echo -n "Current time: "
             f_cor3
             echo -n $(date +%H:%M:%S)
@@ -94,20 +97,27 @@ case $1 in
             sleep 1
             # If time 18:20:00 is found, the loops is broken
             tput rc
-            date +%c | grep "18:20:00"
+
+            # This command must be the last one (in order for the variable $? gets the 0 value. Because 0 means Sucess)
+               date +%c | grep "18:20:00"
          done
 
-         # After loop breaks:
-         clear
-         figlet Presence
+         # Display text beautifully after right time:
+            tput rc
+            echo -n "Current time: " 
+            date +%c | grep "18:20:00" --color=AUTO
+
+      # After loop breaks:
+         echo
          echo "Waiting is done... Sadhguru Presence playing"
          termux-media-player play ${v_REPOS_CENTER}/yogaBashApp/all/all-sadhguru-presence/"Sadhguru Presence Sadhana Time at 6h20 PM.mp3" 1>/dev/null
-         echo -ne "To stop the music playing: "
+         echo -ne " > To stop the music playing: "
          tput setaf 4
          echo "termux-stop"
          tput sgr0
 
-         # If previous for loop 
+      # uDev: Bug detected: sometimes the 'sleep' command forces the 'date' command to jump 1 second and the entire script misses the right timming at 18:20:00. Solution: Grep "18:20:01" also
+
    ;;
    -w | --wallpaper)
       echo "Opening wallpaper (only)"
