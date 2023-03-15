@@ -100,14 +100,19 @@ case $1 in
 
             # This command must be the last one (in order for the variable $? gets the 0 value. Because 0 means Sucess)
                date +%c | grep "18:20:00"
+
+               # If previous command failed, try one new and LAST search (searching if 'date' command detects the imediate next second instead of the previous second. This is meant to fix the bug created by the 'sleep 1' that takes longer that 1 second (Calc: 'sleep 1' + 'date' == '1 second' + "CPU speed to resolve the 'date' command")) :
+               if [[ $? == 1 ]]; then
+                  date +%c | grep "18:20:01"
+               fi
          done
 
-         # Display text beautifully after right time:
-            tput rc
-            echo -n "Current time: " 
-            date +%c | grep "18:20:00" --color=AUTO
+      # Display text beautifully after Loop finds the exact time:
+         tput rc
+         echo -n "Current time: " 
+         date +%c | grep "18:20:00" --color=AUTO
 
-      # After loop breaks:
+      # Adding more info and running the sound:
          echo
          echo "Waiting is done... Sadhguru Presence playing"
          termux-media-player play ${v_REPOS_CENTER}/yogaBashApp/all/all-sadhguru-presence/"Sadhguru Presence Sadhana Time at 6h20 PM.mp3" 1>/dev/null
@@ -115,9 +120,6 @@ case $1 in
          tput setaf 4
          echo "termux-stop"
          tput sgr0
-
-      # uDev: Bug detected: sometimes the 'sleep' command forces the 'date' command to jump 1 second and the entire script misses the right timming at 18:20:00. Solution: Grep "18:20:01" also
-
    ;;
    -w | --wallpaper)
       echo "Opening wallpaper (only)"
