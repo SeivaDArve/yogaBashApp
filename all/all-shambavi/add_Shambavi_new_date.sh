@@ -13,5 +13,8 @@ echo
 echo " > Last 5 lines of file \"./shamb-dates.txt\" are:"
 tail -n 5 ./shamb-dates.txt
 echo
+echo " > Today is:"
+date
+echo
 echo "Do you want to perform a '$ git commit?'"
 echo " > uDev: Not ready yet"
