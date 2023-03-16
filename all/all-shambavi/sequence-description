@@ -5,7 +5,7 @@
 - (0s - 17s):
    - #Duration: 21s (Written by the Ishanga: Dv (creator of this bash app))
    - Mention where the script comes from (sadhguru app)
-   - Remind: DND (Do Not Disturb mode)
+   - Remind: set DND (Do Not Disturb mode)
    - Remind: termux-wake-lock
    - Remind: Please do not use this script without proper initiation
    - Preparation steps
@@ -107,10 +107,11 @@
       
 - (37:00) Sadhguru chant (Chant Name: X)
 - (37:58): Asatoma chant
-- 
 
 ### End 
 - Ask/Send full date to Mandala-log file && shamb-dates file (one to log the challenge of 40 days, another to log every date of shambavi done by the user)
+- Remind: unset DND (Do Not Disturb mode)
+- Remind: termux-wake-unlock
 
 ### Dictionary
 - Shambavi: The word “Shambhavi” in Sanskrit means “Lord Shiva’s Beloved”. According to Hindu legends, Shambhavi is one of the many names of Lord Shiva’s consort Parvati. It’s believed when Parvati asked Shiva about enlightenment and various yogic practices that can lead one to higher states of consciousness, he taught her the technique of Shambhavi Mudra.
