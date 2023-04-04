@@ -9,8 +9,8 @@ function f_resetCor {
    tput sgr0
 }
 
-while true
-do
+function f_presentation {
+
    clear
    figlet waker-up
    #echo "Waker Up: a Bell will play every 1 minute "
@@ -30,12 +30,22 @@ do
    f_cor3
    echo -n "Ctrl-C "
    f_resetCor
-   sleep 60
-   sleep 60
-   sleep 60
-   sleep 60
-   sleep 60
-   #sleep 60
-   #sleep 60
+
+}
+
+function f_play_sound {
    termux-media-player play ${v_REPOS_CENTER}/yogaBashApp/all/sounds/bell-sound.mp3 1>/dev/null
+}
+
+while true
+do
+
+   sleep 60
+   sleep 60
+   sleep 60
+   sleep 60
+   sleep 60
+   #sleep 60
+   #sleep 60
+   f_play_sound
 done
