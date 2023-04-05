@@ -34,12 +34,15 @@ function f_presentation {
 }
 
 function f_play_sound {
-   termux-media-player play ${v_REPOS_CENTER}/yogaBashApp/all/sounds/bell-sound.mp3 1>/dev/null
+   termux-media-player play ${v_REPOS_CENTER}/yogaBashApp/all/tools/sounds/bell-sound.mp3 1>/dev/null
 }
+
+f_presentation
 
 while true
 do
 
+   f_play_sound
    sleep 60
    sleep 60
    sleep 60
