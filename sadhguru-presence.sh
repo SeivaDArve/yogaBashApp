@@ -143,8 +143,8 @@ case $1 in
       echo "   -S                (to open music player and open img)"
       echo "   --youtube         (to open at YouTube with Termux help) "
       echo "   -y                (to open at YouTube with Termux help) "
-      echo "   --waiting         (displays current time and if Sadhguru Presence time 18:20 is found, run the song and image"
-      echo "   -P                (displays current time and if Sadhguru Presence time 18:20 is found, run the song and image"
+      echo "   --waiting         (displays current time and if Sadhguru Presence time 18:20 is found, run the song and image)"
+      echo "   -P                (displays current time and if Sadhguru Presence time 18:20 is found, run the song and image)"
       echo "   <no args>         (to diaplay this message)"
    
    ;;
