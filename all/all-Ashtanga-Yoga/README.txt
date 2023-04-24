@@ -1,0 +1,1 @@
+By the Ramakrishna mission, Swami Vivekananda tranlated the yoga sutras of patanjalii and called as "Raja Yoga by Swami Vivekananda". This book is very important (thus called raja) because It is mentioned and commented by Sri M as "Yoga also for the Godless"
