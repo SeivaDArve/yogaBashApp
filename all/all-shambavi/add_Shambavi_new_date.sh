@@ -4,8 +4,8 @@ clear
 echo "Simply appending a new date at the end of the file:"
 echo " > ./shamb-dates.txt"
 echo
-echo "press ANY KEY or wait 5 secs"
-read -s -n 1 -t 5
+echo "press ANY KEY or wait 10 secs"
+read -s -n 1 -t 10
 date >> ./shamb-dates.txt
 echo
 echo "New date added to \"shamb-dates.txt\" "
