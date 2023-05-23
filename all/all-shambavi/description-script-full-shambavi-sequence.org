@@ -1,14 +1,17 @@
 # Title: Script to re-create shambavi as an app
 # Description: It is following the timmings of the original video
 
-### Preparatory part (Duration: X )
-- (0s - 17s):
-   - #Duration: 21s (Written by the Ishanga: Dv (creator of this bash app))
+Description of all the timmings happening during the Shambavi
+ > Please follow the timmings to re-create the shambavi app
+ 
+* Preparation (part duration: X )
+** Interval (0s - 21s):
+   - Display: "App re-created in Bash by an Ishanga: Dv"
    - Mention where the script comes from (sadhguru app)
    - Remind: set DND (Do Not Disturb mode)
    - Remind: termux-wake-lock
    - Remind: Please do not use this script without proper initiation
-   - Preparation steps
+   - Preparation steps (one screen with this list either in pictures or text):
       - Are you on empty stomach?
       - Did you take a refreshing shower?
       - Did you remove your socks?
@@ -63,7 +66,7 @@
          - One knee comes horizontal while the other leg is standing vertical
          - Go on alternating legs.
 
-### Shambavi part (duration: 21 min~)
+* Shambavi (part duration: 21 min~)
 - (15:10) Sukha Kriya 
    - #Duration: 7 min
    - Sit in Ardha siddhasana
@@ -108,12 +111,12 @@
 - (37:00) Sadhguru chant (Chant Name: X)
 - (37:58): Asatoma chant
 
-### End 
+* When finnished (update log-file part)
 - Ask/Send full date to Mandala-log file && shamb-dates file (one to log the challenge of 40 days, another to log every date of shambavi done by the user)
 - Remind: unset DND (Do Not Disturb mode)
 - Remind: termux-wake-unlock
-
-### Dictionary
+  
+* Dictionary (word meanings)
 - Shambavi: The word “Shambhavi” in Sanskrit means “Lord Shiva’s Beloved”. According to Hindu legends, Shambhavi is one of the many names of Lord Shiva’s consort Parvati. It’s believed when Parvati asked Shiva about enlightenment and various yogic practices that can lead one to higher states of consciousness, he taught her the technique of Shambhavi Mudra.
 - Ishanga: 
 - Asana:
@@ -132,8 +135,7 @@
 - Jalandhar bandha: throat lock
 - Anulom Vilom: Acording to "Sri M" it is the pranayama that we practice in shambavi
 
-### Descriptive process
-
+* Descriptive process (text)
 The complete process of Shambhavi Mahamudra involves a few steps prior to the actual kriya. Below is the procedure in short:
 
 Begin the practice with 3 preparatory asanas; Patangasna (butterfly pose), Shishupalasna (rock the baby pose) and NadiVibajan (cat stretch). All 3 asanas are performed gently in 5 minute-period.     
