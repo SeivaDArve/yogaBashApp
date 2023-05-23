@@ -1,0 +1,29 @@
+#!/bin/bash
+# Title: source-all-yoga-files
+
+function yg {
+   case $1 in
+      dates) 
+         echo "Show the last 10 logs from shambavi bash app"
+         echo 
+
+         #This script simply reads an existencial .txt document in a folder
+         #less /data/data/com.termux/files/home/scripts.all/Shambavi/Extras/./shamb-dates.txt
+         tail ${v_REPOS_CENTER}/yogaBashApp/all/all-shambavi/shamb-dates.txt
+      ;;
+      sadhguru-quotes)
+         echo "Opening file with most important Sadhguru Quotes" 
+         sleep 3
+         vim ${v_REPOS_CENTER}/yogaBashApp/all/all-quotes/most-important-sadhguru-quotes
+      ;;
+      *)
+         echo "yogaBashApp:"
+         echo " > Options available for the function: yg"
+         echo " > dates)"
+         echo " > sadhguru-quotes)"
+         echo 
+         echo "(Should be updated now and then)"
+      ;;
+   esac
+
+}
