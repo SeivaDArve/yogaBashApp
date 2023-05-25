@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/bin/bash
 clear
 
 # Esta app diz Welcome + Redirecionar para Extras
@@ -9,7 +9,7 @@ clear
 
 
 echo "Welcome to Shambavi Maha Mudra"
-echo ""
+echo 
 echo "choose your option, ok?"
 
 PS1='Please enter yourr choice: '

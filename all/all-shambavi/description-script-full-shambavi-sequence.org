@@ -6,143 +6,154 @@ Description of all the timmings happening during the Shambavi
  
 * Preparation (part duration: X )
 ** Interval (0s - 21s):
+   - Duration: 21s 
    - Display: "App re-created in Bash by an Ishanga: Dv"
-   - Mention where the script comes from (sadhguru app)
-   - Remind: set DND (Do Not Disturb mode)
-   - Remind: termux-wake-lock
-   - Remind: Please do not use this script without proper initiation
-   - Preparation steps (one screen with this list either in pictures or text):
+   - Mention where the script comes from:
+      - from Sadhguru app
+      - Written by the Ishanga: Dv (creator of this bash app)
+   - Remind to: 
+      - set DND (Do Not Disturb mode)
+      - termux-wake-lock
+      - Please do not use this script without proper initiation
+      - Mandala log file is updated only at the end (user account should be mentioned there)
+   - Preparation steps:
+      - In case app is in GUI mode: one screen with this list either in pictures or text):
       - Are you on empty stomach?
       - Did you take a refreshing shower?
       - Did you remove your socks?
       - Did you remove your spectacles? (glasses)
-      - Please sit in Ardasidhasana
-   - Remind to do the Mandala
+      - Please sit in Ardasidhasana (with picture or link to picture)
+   - Remind to do the Mandala:
       - 2x Day: Shambavi
       - At both Sandya Kalas
-         - At Sunsire, At Sunset
-         - Interval: Starts 10 min before each
-         - Interval: Ends 10 min after each
-         - Interval: 20 min period, cetered at sunrise and centered at sunset
+         - Centered at Sunsire and centered at Sunset (20 min period each)
+         - Interval: Starts 10 min before sunrise, ends 10 min after sunrise
+         - Interval: Starts 10 min before sunset, ends 10 min after sunset
       - During 40 days
       - Script can include the current User's process, (current Mandala of the user)
          - Mandala starts from New if one day (24h) does not have 2 complete sessions
       - Show a picture from Isha Foundation
-   - Countdown from 10 to 0
+   - Countdown from 10 to 0 (to start the process. Should have the option to cancel also)
 
-- (17s): Asatoma chant
-   - #Duration: 
-- (52s): Inner engeneering crash course
-   - (1:18) All the rules are my rules
-   - (1:43) I am responsible for everything
-   - (2:08) What is there right now is all there is, it cannot be any other way
-   - (2:30) I am not this body, I am not this mind
-   - (2:55) I am a mother to tje world
+   - (17s): Asatoma chant
+      - Duration: 
+      - Asana: ardha siddhasana
+   - (52s): Inner engeneering crash course
+      - (1:18) All the rules are my rules
+      - (1:43) I am responsible for everything
+      - (2:08) What is there right now is all there is, it cannot be any other way
+      - (2:30) I am not this body, I am not this mind
+      - (2:55) I am a mother to tje world
 
-- (3:56) Intro + Patengasana 
-   - #Duration: 2 min
-   - Drishti (focal point): At the base of yhe spine
-   - Hands with fingers intertwined
-- (6:15) Shishupala (rock the baby)  (Right leg 6:15)
-   - #Duration: 2 min
-   - Head does not turn side to side along with leg, it stays pointing front
-- (8:20) Shishupala (rock the baby)  (Left leg 6:15)
-   - #Duration: 2 min
-- (10:20) Nadi vibhajan (or cat strech) 
-   - #Duration: 5 min~
-   - 3 Repetitions of 10 steps
+   - (3:56) Intro + Patengasana 
+      - Duration: 2 min
+      - Drishti (focal point): At the base of yhe spine
+      - Hands with fingers intertwined
+   - (6:15) Shishupala (rock the baby) (Right leg 6:15)
+      - Duration: 2 min
+      - Head does not turn side to side along with leg, it stays pointing front
+   - (8:20) Shishupala (rock the baby)  (Left leg 6:15)
+      - Duration: 2 min
+   - (10:20) Nadi vibhajan (or cat strech) 
+      - Duration: 5 min~
+      - 3 Repetitions of 10 steps
 
-- (to add to bash script): Are your nostrils clear? 
-   - uDev: Find the name of this jumping asana
-   - do you need the jumping technique?: 
-   - How to practice nostril unblock:
-      - Stand up vertically
-      - Arms horizontal, 
-      - Make a fist on each hand
-      - Tuck/Hide your thumb finger inside the fist
-      - Both arms parallel to each other
-      - Close the lips
-      - Jump for 2 minuts like marching
-         - One knee comes horizontal while the other leg is standing vertical
-         - Go on alternating legs.
+   - (to add to bash script): Are your nostrils clear? 
+      - uDev: Find the name of this jumping asana
+      - do you need the jumping technique?: 
+      - How to practice nostril unblock:
+         - Stand up vertically
+         - Arms horizontal, 
+         - Make a fist on each hand
+         - Tuck/Hide your thumb finger inside the fist
+         - Both arms parallel to each other
+         - Close the lips
+         - Jump for 2 minuts like marching
+            - One knee comes horizontal while the other leg is standing vertical
+            - Go on alternating legs.
 
 * Shambavi (part duration: 21 min~)
-- (15:10) Sukha Kriya 
-   - #Duration: 7 min
-   - Sit in Ardha siddhasana
-      - Cross-legged:
-         - Left leg folded with heel touching the perinium
-         - Right leg folder after that
-      - Mudra:
-         - Left hand close to the belly with palm facing upwards
-         - Right hand on top of left hand with palm facing upwards
-- (23:00) AUM chanting 
-   - Yoga mudra
-   - Arms loose like a rope
-   - 21 Repetitions
-   - Attention not to the sound, but to the source of reverb whiting the body. Amplify that
-   - uDev: In future, the script/program will detect your voice and count each cicle for you. At the end of 21, a bell ir rang and the script continues 
-- (27:38) Fluttering of the breath
-   - Mudra: Hands on top of knees facing down
-   - Attention at:
-- (31:38) Bandas/Locks
-   - Mudra: Hands on top of knees facing down
-   - Attention at:
+   - (15:10) Sukha Kriya 
+      - Duration: 7 min
+      - Sit in Ardha siddhasana
+         - Cross-legged:
+            - Left leg folded with heel touching the perinium
+            - Right leg folder after that
+         - Mudra:
+            - Left hand close to the belly with palm facing upwards
+            - Right hand on top of left hand with palm facing upwards
+               - Then right hand blocks left nostril with pinky and blocks right nostril with thumb
 
-   - Step 1:
-      - Inhale deeply (Inhalation only)
-      - Lock throat
-      - Lock diafragm
-      - Lock Anus
-      - Hold until confortable without any pain
-   - Step 2:
-      - Exale deeply (unlocking only throat)
-      - Lock throat again
-      - hold until confortable without any pain
-   - Step 3: 
-      - Unlock throat
-      - Unlock diafragm
-      - Unlock Anus
-      - Exale
-      - Breath normaly/Stabilize the breath
-   - Step 4:
-      - Vipasana: Attention on the breath and on yourself
-      
-- (37:00) Sadhguru chant (Chant Name: X)
-- (37:58): Asatoma chant
+   - (23:00) AUM chanting 
+      - Yoga mudra
+      - Arms loose like a rope
+      - 21 Repetitions
+      - Attention not to the sound, but to the source of reverb whiting the body. Amplify that
+      - uDev: In future, the script/program will detect your voice and count each cicle for you. At the end of 21, a bell ir rang and the script continues 
 
-* When finnished (update log-file part)
-- Ask/Send full date to Mandala-log file && shamb-dates file (one to log the challenge of 40 days, another to log every date of shambavi done by the user)
-- Remind: unset DND (Do Not Disturb mode)
-- Remind: termux-wake-unlock
+   - (27:38) Fluttering of the breath
+      - Mudra: Hands on top of knees facing down
+      - Attention at:
+
+   - (31:38) Bandas/Locks
+      - Mudra: Hands on top of knees facing down
+      - Attention at:
+
+      - Step 1:
+         - Inhale deeply (Inhalation only)
+         - Lock throat
+         - Lock diafragm
+         - Lock Anus
+         - Hold until confortable without any pain
+      - Step 2:
+         - Exale deeply (unlocking only throat)
+         - Lock throat again
+         - hold until confortable without any pain
+      - Step 3: 
+         - Unlock throat
+         - Unlock diafragm
+         - Unlock Anus
+         - Exale
+         - Breath normaly/Stabilize the breath
+      - Step 4:
+         - Vipasana: Attention on the breath and on yourself
+         
+   - (37:00): Sadhguru chant (Chant Name: X)
+   - (37:58): Asatoma chant
+
+   * When finnished (update log-file part)
+   - Ask user-name:
+      - To send full date to Mandala-log file && shamb-dates file (one to log the challenge of 40 days, another to log every date of shambavi done by the user)
+   - Remind: unset DND (Do Not Disturb mode)
+   - Remind: termux-wake-unlock
   
 * Dictionary (word meanings)
-- Shambavi: The word “Shambhavi” in Sanskrit means “Lord Shiva’s Beloved”. According to Hindu legends, Shambhavi is one of the many names of Lord Shiva’s consort Parvati. It’s believed when Parvati asked Shiva about enlightenment and various yogic practices that can lead one to higher states of consciousness, he taught her the technique of Shambhavi Mudra.
-- Ishanga: 
-- Asana:
-- Mudra
-- Kryia
-- Patangasana
-- Shishupalasana
-- Nadi Vibajan
-- Sukha Kryia (or Nadi Shodana Pranayama)
-- Gyan Mudra
-- Bhastrika pranayama
-- Kumbhaka: breath retention at the end of Bhastrika
-- bandhas
-- Mulabandha: pelvic retention
-- Uddiyana bandha: lower abdomen
-- Jalandhar bandha: throat lock
-- Anulom Vilom: Acording to "Sri M" it is the pranayama that we practice in shambavi
+   - Shambavi: The word “Shambhavi” in Sanskrit means “Lord Shiva’s Beloved”. According to Hindu legends, Shambhavi is one of the many names of Lord Shiva’s consort Parvati. It’s believed when Parvati asked Shiva about enlightenment and various yogic practices that can lead one to higher states of consciousness, he taught her the technique of Shambhavi Mudra.
+   - Ishanga: 
+   - Asana:
+   - Mudra:
+   - Kryia:
+   - Patangasana:
+   - Shishupalasana:
+   - Nadi Vibajan:
+   - Sukha Kryia (or Nadi Shodana Pranayama)
+   - Gyan Mudra:
+   - Bhastrika pranayama:
+   - Kumbhaka: breath retention at the end of Bhastrika
+   - Bandhas:
+   - Mulabandha: pelvic retention
+   - Uddiyana bandha: lower abdomen
+   - Jalandhar bandha: throat lock
+   - Anulom Vilom: Acording to "Sri M" it is the pranayama that we practice in shambavi
 
 * Descriptive process (text)
-The complete process of Shambhavi Mahamudra involves a few steps prior to the actual kriya. Below is the procedure in short:
+   The complete process of Shambhavi Mahamudra involves a few steps prior to the actual kriya. Below is the procedure in short:
 
-Begin the practice with 3 preparatory asanas; Patangasna (butterfly pose), Shishupalasna (rock the baby pose) and NadiVibajan (cat stretch). All 3 asanas are performed gently in 5 minute-period.     
-Now sit cross-legged in Siddhasana or accomplished pose and do Sukha Kriya or Nadi Shodhana Pranayama for 6 to 7 minutes. 
-Then loudly chant AUM 21 times with long deep breathing and hands in Gyan mudra. 
-Next, do fast-paced Bhastrika pranayama or Fluttering of Breath for 3 to 4 minutes.
-Perform Kumbhaka (breath retention) at the end of Fluttering Breath and engage three bandhas one by one; first Mula bandha (pelvic floor), then uddiyana bandha (lower abdomen) and finally throat lock (Jalandhar bandha).
-Keeping your bandhas engaged, slightly upturn your head, close your eyes and focus on the space between eyebrows – As we do in basic Shambhavi Mudra with open eyes. It’s the actual kriya. 
-End the practice with 5-minute of Vipassana meditation. Focus your awareness on the present moment and watch your breath. 
-Be in the above meditative posture for a few minutes and then slowly open your eyes
+   Begin the practice with 3 preparatory asanas; Patangasna (butterfly pose), Shishupalasna (rock the baby pose) and NadiVibajan (cat stretch). All 3 asanas are performed gently in 5 minute-period.     
+   Now sit cross-legged in Siddhasana or accomplished pose and do Sukha Kriya or Nadi Shodhana Pranayama for 6 to 7 minutes. 
+   Then loudly chant AUM 21 times with long deep breathing and hands in Gyan mudra. 
+   Next, do fast-paced Bhastrika pranayama or Fluttering of Breath for 3 to 4 minutes.
+   Perform Kumbhaka (breath retention) at the end of Fluttering Breath and engage three bandhas one by one; first Mula bandha (pelvic floor), then uddiyana bandha (lower abdomen) and finally throat lock (Jalandhar bandha).
+   Keeping your bandhas engaged, slightly upturn your head, close your eyes and focus on the space between eyebrows – As we do in basic Shambhavi Mudra with open eyes. It’s the actual kriya. 
+   End the practice with 5-minute of Vipassana meditation. Focus your awareness on the present moment and watch your breath. 
+   Be in the above meditative posture for a few minutes and then slowly open your eyes
