@@ -16,6 +16,15 @@ function yg {
          sleep 3
          vim ${v_REPOS_CENTER}/yogaBashApp/all/all-quotes/most-important-sadhguru-quotes
       ;;
+      eXp | ex-pressa)
+         echo "uDev: Bloco de notas sobre espiritualidade"
+         #
+         # select menu
+         #     Seiva (Dv)
+         #     flowreshe
+         #     naghori
+         #     D'Arve
+      ;;
       *)
          echo "yogaBashApp:"
          echo " > Options available for the function: yg"
