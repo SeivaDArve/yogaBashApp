@@ -120,6 +120,10 @@ case $1 in
          tput setaf 4
          echo "termux-stop"
          tput sgr0
+
+      # Mixing with more linux learning:
+         echo
+         echo "uDev: to practice sqlite: everytime the bell rings at the end, send a log file to a sqlite database"
    ;;
    -w | --wallpaper)
       echo "Opening wallpaper (only)"
