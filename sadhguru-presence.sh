@@ -84,6 +84,10 @@ case $1 in
          f_resetCor
          echo
 
+      # Set Android to never hibernate termux if the wait is too long
+         # uDev: it must contemplate Windows too
+         #termux-wake-unlock
+
       # Creating a while loop that only breaks at the right time
          date +%c | grep "18:20:00"
          while [[ $? == 1 ]]
@@ -120,6 +124,10 @@ case $1 in
          tput setaf 4
          echo "termux-stop"
          tput sgr0
+
+      # Set Android to allow hibernation again in termux 
+         # uDev: it must contemplate Windows too
+         #termux-wake-lock
 
       # Mixing with more linux learning:
          echo
