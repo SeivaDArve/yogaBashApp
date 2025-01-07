@@ -12,7 +12,7 @@ echo "Welcome to Shambavi Maha Mudra"
 echo 
 echo "choose your option, ok?"
 
-PS1='Please enter yourr choice: '
+PS1='Please enter your choice: '
 options=("Option 1" "Option 2" "Option 3" "Quit")
 select opt in "${options[@]}"
 do
