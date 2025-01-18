@@ -61,6 +61,8 @@ function f_shambavi_menu {
       # Lista de opcoes para o menu `fzf`
          Lz1='Save '; Lz2='Y shamb'; Lz3="$Lz1\`$Lz2\`"; Lz4=$v_drya_fzf_menu_hist
 
+         L4='4. Visualizar historico'
+         L3='3. Visualizar Mandala'
          L2='2. Iniciar | Shambavi Maha Mudra'                                      
          L1='1. Cancel'
 
@@ -73,6 +75,8 @@ function f_shambavi_menu {
 
       # Perceber qual foi a escolha da lista
          [[ $v_list =~ $Lz3  ]] && echo "$Lz2" && history -s "$Lz2"
+         [[ $v_list =~ "4. " ]] && less ${v_REPOS_CENTER}/yogaBashApp/all/all-shambavi/shamb-dates.txt
+         [[ $v_list =~ "3. " ]] && echo "uDev: $L3" && sleep 0.1 
          [[ $v_list =~ "2. " ]] && echo "uDev: $L2" && sleep 0.1 
          [[ $v_list =~ "1. " ]] && echo "Canceled: $Lz2" && history -s "$Lz2"
          unset v_list

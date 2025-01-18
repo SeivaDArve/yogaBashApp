@@ -11,3 +11,29 @@ do
         	echo "hello b world"
     	fi
 done
+#
+#
+#
+#
+# ------------------------
+#!/usr/bin/bash
+
+seconds="$(date +%s)"
+#seconds=123456789 # as in one of the answers above
+
+eval "echo $(date -d "$seconds" +'$((%s/3600/24)) days %H hours %M minutes %S seconds')"
+#/bin/bash
+
+# Define colors to use in text
+_end="\e[0m"
+_red="\e[31m"
+_green="\e[32m"
+_under="\e[4m"
+_underG="\e[4m\e[32m" # underline + green
+
+
+alias clr="vim"
+
+# These color styles could be loaded from and external bash script - So, here is a link with most of them in order to add them later:
+
+# https://www.shellhacks.com/b
