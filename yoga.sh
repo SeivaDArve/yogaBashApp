@@ -4,54 +4,12 @@
 # Shambavi Maha Mudra (app)
 # Sadhguru Presence
 
-function f_greet {
-   clear
-   figlet Yoga
-}
+# Colors now were repladed as a test. They now come from the boilerplate/ dir
+   # uDev: test if drya repo exists, if not, an alternative should exist
+   source ${v_REPOS_CENTER}/DRYa/all/lib/drya-lib-1-colors-greets.sh
 
-function f_talk {
-   # Copied from: ezGIT
-         echo
-   f_c4; echo -n "DRYa: "
-   f_rc
-}
-
-function f_c1 {	
-   # This function is to be used when something is SEARCHED
-   tput setaf 5 
-}
-
-function f_c2 { 
-   tput setaf 2 
-}
-
-function f_c3 { 
-   # Mentioning user input or valiable input
-   # This function is to be used when something is DECLAIRED
-   tput setaf 3
-}
-
-function f_c4 { 
-   # Similar to Bold. Used in: f_talk
-   # This function is to be used when something is ASKED
-   tput setaf 4
-}
-
-function f_c5 { 
-   # Similar to Bold
-   tput setaf 6
-}
-
-function f_c6 { 
-   # Used for ASCII Drya Logo, centered to the screen
-   tput setaf 28
-   tput bold
-}
-
-function f_rc { 
-   # This function is to be used when styles are to be CLEARED
-   tput sgr0
-}
+   v_greet="Yoga"
+   v_talk="Yoga: Shambavi: "
 
 function f_shambavi_menu {
 
@@ -116,6 +74,18 @@ if [ -z $1 ]; then
    echo "No arg given"
    echo ' > Try: `Y .` for main menu'
    echo ' > Try: `Y h` for help menu'
+
+elif [ $1 == "test1" ]; then
+   v_talk="Yoga: "
+   f_Greet
+   f_talk; echo "Testing libraries"
+           echo
+
+elif [ $1 == "test2" ]; then
+   v_talk="Yoga: Shambavi: "
+   f_Greet
+   f_talk; echo "Testing libraries"
+           echo
 
 elif [ $1 == "h" ]; then
    echo "uDev: help menu"
