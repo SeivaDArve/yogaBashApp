@@ -63,7 +63,7 @@ function f_main_menu {
       # Perceber qual foi a escolha da lista
          [[ $v_list =~ $Lz3  ]] && echo "$Lz2" && history -s "$Lz2"
          [[ $v_list =~ "3. " ]] && f_shambavi_menu
-         [[ $v_list =~ "2. " ]] && echo "uDev: $L2" && sleep 0.1 
+         [[ $v_list =~ "2. " ]] && bash ${v_REPOS_CENTER}/yogaBashApp/sadhguru-presence.sh
          [[ $v_list =~ "1. " ]] && echo "Canceled: $Lz2" && history -s "$Lz2"
          unset v_list
 }
@@ -71,6 +71,7 @@ function f_main_menu {
 
 if [ -z $1 ]; then
    # If no arg is given, display some help
+   f_greet
    echo "No arg given"
    echo ' > Try: `Y .` for main menu'
    echo ' > Try: `Y h` for help menu'
@@ -95,7 +96,8 @@ elif [ $1 == "." ]; then
 
 else 
    # If invalid arg is given, display some help
-   echo "No arg given"
+   f_greet
+   echo "Invalid arg"
    echo ' > Try: `Y .` for main menu'
    echo ' > Try: `Y h` for help menu'
 
