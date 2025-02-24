@@ -11,7 +11,7 @@ echo "|--------------------------------------|"
 echo "| Remove Socks, sit on Ardasidhasana   |"
 echo "|--------------------------------------|"
 echo
-read -p "          Press ENTRE for menu         "
+read -p "          Press ENTER for menu         "
 echo "Done!"
 
 #se o start.sh disser que é com som ou sem som:

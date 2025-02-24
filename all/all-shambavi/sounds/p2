@@ -1,3 +1,0 @@
-#!/bin/bash
-
-play tone2.mp3 2>/dev/null

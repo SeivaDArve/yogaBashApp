@@ -7,7 +7,7 @@ Description of all the timmings happening during the Shambavi
 * Preparation (part duration: X )
 ** Interval (0s - 21s):
    - Duration: 21s 
-   - Display: "App re-created in Bash by an Ishanga: Dv"
+   - Display: "App re-created in Bash by an Ishanga: Seiva"
    - Mention where the script comes from:
       - from Sadhguru app
       - Written by the Ishanga: Dv (creator of this bash app)
@@ -15,7 +15,7 @@ Description of all the timmings happening during the Shambavi
       - set DND (Do Not Disturb mode)
       - termux-wake-lock
       - Please do not use this script without proper initiation
-      - Mandala log file is updated only at the end (user account should be mentioned there)
+      - Mandala history log file is updated only at the end (user account should be mentioned there)
    - Preparation steps:
       - In case app is in GUI mode: one screen with this list either in pictures or text):
       - Are you on empty stomach?
@@ -24,11 +24,11 @@ Description of all the timmings happening during the Shambavi
       - Did you remove your spectacles? (glasses)
       - Please sit in Ardasidhasana (with picture or link to picture)
    - Remind to do the Mandala:
-      - 2x Day: Shambavi
-      - At both Sandya Kalas
-         - Centered at Sunsire and centered at Sunset (20 min period each)
-         - Interval: Starts 10 min before sunrise, ends 10 min after sunrise
-         - Interval: Starts 10 min before sunset, ends 10 min after sunset
+      - 2x Day: Shambavi 
+         - At both Sandya Kalas
+            - Centered at Sunsire and centered at Sunset (20 min period each)
+            - Interval: Starts 10 min before sunrise, ends 10 min after sunrise
+            - Interval: Starts 10 min before sunset, ends 10 min after sunset
       - During 40 days
       - Script can include the current User's process, (current Mandala of the user)
          - Mandala starts from New if one day (24h) does not have 2 complete sessions
@@ -38,6 +38,7 @@ Description of all the timmings happening during the Shambavi
    - (17s): Asatoma chant
       - Duration: 
       - Asana: ardha siddhasana
+	
    - (52s): Inner engeneering crash course
       - (1:18) All the rules are my rules
       - (1:43) I am responsible for everything
@@ -49,11 +50,14 @@ Description of all the timmings happening during the Shambavi
       - Duration: 2 min
       - Drishti (focal point): At the base of yhe spine
       - Hands with fingers intertwined
+	
    - (6:15) Shishupala (rock the baby) (Right leg 6:15)
       - Duration: 2 min
       - Head does not turn side to side along with leg, it stays pointing front
+
    - (8:20) Shishupala (rock the baby)  (Left leg 6:15)
       - Duration: 2 min
+	
    - (10:20) Nadi vibhajan (or cat strech) 
       - Duration: 5 min~
       - 3 Repetitions of 10 steps
@@ -63,10 +67,10 @@ Description of all the timmings happening during the Shambavi
       - do you need the jumping technique?: 
       - How to practice nostril unblock:
          - Stand up vertically
-         - Arms horizontal, 
+         - Arms streached horizontally, 
          - Make a fist on each hand
          - Tuck/Hide your thumb finger inside the fist
-         - Both arms parallel to each other
+         - Both arms parallel to each other, parallel to the ground
          - Close the lips
          - Jump for 2 minuts like marching
             - One knee comes horizontal while the other leg is standing vertical

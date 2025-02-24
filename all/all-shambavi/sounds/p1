@@ -1,4 +1,0 @@
-#!/bin/bash
-
-play tone1.mp3 2>/dev/null
-echo $0
