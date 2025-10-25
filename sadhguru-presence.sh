@@ -12,8 +12,8 @@
    # simply 'safhguru-presence' for termux befault behavior)
 
 # An alias should be added to be sourced at
-   # uDev: add alias to source-all-drya-files (done)
-      # at source-all-drya-file: 'alias termux-stop="termux-media-player stop"'
+   # uDev: add alias to dryaSRC (done)
+      # at dryaSRC: 'alias termux-stop="termux-media-player stop"'
    # uDev: add a test for the following commands:
 
 function f_cor3 {
